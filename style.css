@@ -1,0 +1,220 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family:'static';
+    src: url(./static/PlayfairDisplay-Bold.ttf) format(trutype);
+    font-style: normal;
+    font-weight: normal;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between; 
+    }
+
+    
+header {
+    background-color: #4A9396;
+    width: 20vw;
+    height: 100vh;
+    position: fixed;     
+    z-index: 100;  
+}
+
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./IMG/Bombillas\ Editado.png);
+    width: 80vw;
+    height: 100vh;
+  }
+
+section {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vw;
+    background: linear-gradient(180deg, #00202E 58.33%, #082C39 71.35%, #1B4A54 80.73%, #2B636A 89.58%, #4A9396 100%);
+}
+
+p {
+    text-align: center;
+    padding: 3%;
+    font-family: 'PlayfairDisplay.Bold';
+    color: #CB7F07;
+}
+
+footer {
+    height: 6%;
+    background-color: #00202E;
+}
+
+ul {
+    list-style: none;
+    padding-top: 20%;
+    padding-right: 10%;
+    text-align: center;
+}
+
+.logo {
+    margin-top: 1%;
+    text-align: center;
+    /* max-height: 100%;
+    max-width: 100%; */
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+.bar {
+    display: block;
+    width: 1.5625rem;
+    height: .1875rem;
+    margin: .3125rem auto;
+    background-color: black;
+}
+ .portadah1 {
+    font-size: 5rem;
+    text-align: center;
+    font-family: antic didone ;
+    background-color: #CB7F07;
+    background: rgba(253, 208, 59, 0.61);
+    width: 29.0625rem;
+    height: 5.125rem;
+    margin: 0;
+ }
+
+ .portadah2 {
+    font-family: antic didone;
+    font-size: 3.75rem;
+    text-align: center;
+    background-color: #CB7F07;
+    background: rgba(253, 208, 59, 0.61);
+    width: 29.0625rem;
+    height: 5rem;
+    margin: 0;
+ }
+
+ .portadah3 {
+    font-family: Playfair Display;
+    font-weight: 1500;
+    font-size: 2.5rem;
+    left: 37.5rem;
+    text-align: center;
+    background-color: #CB7F07;
+    background: rgba(253, 208, 59, 0.61);
+    width: 29.0625rem;
+    height: 4.5rem;
+    margin-left: 25%;
+    margin-top: 1%;
+    
+ }
+
+ .containermain {
+    display: flex;
+    height: auto;
+ }
+
+ .divisor {
+    border-bottom: 3.5px solid #CB7F07;
+    padding-top: 2.5%;    
+    padding-left: 3%;
+    height: 15vh;
+    background-color: #291907;
+    font-family: 'PlayfairDisplay-Bold';
+    color: #CB7F07;  
+    display: flex;
+    justify-content: center;
+ }
+ 
+ .circulosytextos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3%;
+    margin-bottom: 12.5rem
+ }
+
+ .figure {
+    padding-left: 20%;
+ }
+
+ .iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    bottom: 0%;
+}
+
+
+.icons {
+    width: 2.8125rem;
+    height: 2.8125rem;
+}
+
+#Tittle3 {
+    text-align: center;
+    padding: 3%;
+    font-family: 'PlayfairDisplay.Bold';
+    color: #CB7F07;
+    font-size: 2rem;
+}
+
+
+#Tittle4 {
+    text-align: center;
+    padding: 3%;
+    margin-left: 20%;
+    font-family: 'PlayfairDisplay.Bold';
+    color: #CB7F07;
+}
+#Tittle5 {
+    text-align: center;
+    padding: 3%;
+    padding-left: 25%;
+    font-family: 'PlayfairDisplay.Bold';
+    color: #CB7F07;
+}
+#Tittle6 {
+    text-align: center;
+    padding: 3%;
+    padding-left: 15%;
+    font-family: 'PlayfairDisplay.Bold';
+    color: #CB7F07;
+}
+#Img1 {
+    border-radius: 100%;
+}
+#Img2 {
+    border-radius: 100%;
+    margin-left: 15%;
+}
+#Img3 {
+    border-radius: 100%;
+    margin-left: 8%;
+}
+#Caja1 {
+    margin-left: 20%;
+}
+#Caja2 {
+    padding-left: 25%;
+}
+#Caja3 {
+    padding-left: 15%;
+}
+
+
